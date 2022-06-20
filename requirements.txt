@@ -1,0 +1,18 @@
+aiohttp==3.6.0
+aiohttp-cors==0.7.0
+gunicorn==19.7.1
+motor==2.2.0
+pymongo==3.11.0
+PyYAML==5.1.2
+PyJWT==1.7.1
+pyshorteners==1.0.1
+requests==2.25.1
+sawtooth_signing==1.1.5
+bcrypt==3.1.7
+pycryptodome==3.10.1
+itsdangerous==1.1.0
+protobuf==3.17.0
+jsonschema==3.2.0
+# ipfs_services==0.7.0
+sawtooth_sdk==1.2.3
+secp256k1==0.13.2

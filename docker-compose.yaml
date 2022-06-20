@@ -1,0 +1,17 @@
+version: "3"
+services:
+    identsawtooth:
+        image: maihuysl1999/identsawtooth:latest
+        ports:
+            - "3000:8080"
+        volumes:
+            - ./backend:/identSawtooth/backend
+            - ./config:/identSawtooth/config
+    mongodb:
+        image: mongo
+        environment:
+            - MONGO_INITDB_DATABASE=identsawtooth
+            - MONGO_INITDB_ROOT_USERNAME=root
+            - MONGO_INITDB_ROOT_PASSWORD=123456
+        ports:
+            - "9000:27017"

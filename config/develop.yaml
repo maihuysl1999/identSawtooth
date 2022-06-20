@@ -1,0 +1,8 @@
+database:
+    db_name: identsawtooth
+    username: root
+    password: 123456
+    port: 27017
+    host: mongodb
+
+jwt_key: 1540596AD107034AECF78CE71A012DF216595300EF0B32EDFFAE4B0E0B66772A
